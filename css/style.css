@@ -1,0 +1,34 @@
+body{
+    font-family: Roboto;
+    background-image:url("../img/background.jpg");
+}
+.header{
+    background-color: #4a4a4a;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: -webkit-xxx-large;
+    height: 75px;
+}
+.form{
+    width: 33%;
+    background-color: #a3a3a3;
+    text-align: -webkit-center;
+    font-size: x-large;
+    /* padding-left: unset; */
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.button{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100px;
+    height: 34px;
+}
+select{
+    width: 166px;
+    height: 27px;
+}
+.show{
+    background-color: aliceblue;
+}

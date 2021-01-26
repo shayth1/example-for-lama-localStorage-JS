@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Garage</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h6>My Car Garage</h6>
+    </div>
+    <div class="container">
+        <!-- add car -->
+        <div class="form">
+            <form id="addCar">
+                <label for="carName">Car Name</label>
+                <br>
+                <input type="text" name="carName" id="carName">
+                <br>
+                <label for="carType">Car Category</label>
+                <br>
+                <select id="carType" name="carType">
+                    <option value="bmw">bmw</option>
+                    <option value="kia">kia</option>
+                    <option value="tesla">tesla</option>
+                    <option value="lexus">lexus</option>
+                    <option value="toyota">toyota</option>
+                    <option value="chevrolate">chevrolate</option>
+                </select>
+                <br>
+
+                <label for="carModal">Moadal Year</label>
+                <br>
+                <select id="carModal" name="carModal">
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                </select>
+                <br>
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </div>
+        <!-- add car end -->
+        <div class="show" id="Car">
+
+        </div>
+
+    </div>
+
+
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
